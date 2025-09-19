@@ -96,7 +96,7 @@ Sigma_T5 = [
         [("NeedsCare", "X")]        # head
     )
 ]
-I5 = {("Illness", "Mary", "flu")}
+I5 = {("Illness", "mary", "flu")}
 C5 = []
 
 F_O5, F_S5 = set(), set()
@@ -132,3 +132,4 @@ print("Test 6")
 print("Owner Fragment F_O:", res6[0])
 print("Server Fragment F_S:", res6[1])
 print("Conflict:", res6[2])
+
